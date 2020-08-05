@@ -15,8 +15,9 @@ body{
 
 @media only screen and (max-width: 600px) {
     body {
-        background-size: cover;
-        background-position:center;
+        background-size: auto;
+        background-color: lightblue;
+        background-position: center;
         position: center;
         height:60%;
         padding-top: 0px;
