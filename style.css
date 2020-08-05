@@ -1,0 +1,119 @@
+html{
+    height:100%;
+}
+
+body{
+    background-color:grey;
+    background-image:url(images/merlin_166104477_1c101406-3b5c-4565-b510-90a4c11a3eb9-superJumbo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 50px;
+}
+
+.container{
+    margin-left:auto;
+    margin-right:auto;
+    width:1024px;
+}
+
+header{
+    height:118px;
+    text-align:center;
+    margin-bottom: 100px;
+}
+
+nav{
+    /* background-color:rgba(255, 23, 23, 0.666); */
+    background-color:rgba(237, 237, 237, 0.858);
+    font-size:0px;
+    color:rgb(45, 45, 45);
+    /* transition: width 2s, height 4s; */
+    height:40px;
+    width:170px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom:20px;
+}
+
+nav:hover {
+    width: 300px;
+    height: 300px;
+    color:rgb(45, 45, 45);
+    font-size:20px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    text-align: center;
+    padding-left:25px;
+    padding-right:25px;
+    line-height: 1.6;
+  }
+  .pictures{
+    background-color:rgba(237, 237, 237, 0.858);
+    font-size:0px;
+    color:rgb(45, 45, 45);
+    height:40px;
+    width:170px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom:20px;
+  }
+
+
+
+  nav:hover {
+    width: 300px;
+    height: 300px;
+    color:rgb(45, 45, 45);
+    font-size:20px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    text-align: center;
+    padding-left:25px;
+    padding-right:25px;
+    line-height: 1.6;
+  }
+
+
+footer{
+    background-color:rgba(0, 0, 0, 0.509);
+    color:white;
+    font-family: Helvetica, sans-serif;;
+    border-radius: 25px;
+    font-size:10px;
+    height:40px;
+    width:600px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+    margin-top:10px;
+    padding-top: 20px;
+}
+
+h1{
+    font-size:60px;
+    color:white;
+    font-style:italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p{
+    font-size:18px;
+    color: white;
+    font-family:Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+a{
+    color: rgb(62, 62, 62);
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif
+}
+
+nav a{
+    text-decoration: none;
+    font-size:25px;
+    padding-left: 20px;
+    padding-right:20px;
+}
