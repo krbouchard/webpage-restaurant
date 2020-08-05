@@ -1,5 +1,6 @@
 html{
     height:100%;
+    
 }
 
 body{
@@ -9,12 +10,22 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     padding-top: 50px;
+
 }
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-size: cover;
+        background-position:center;
+        position: center;
+    }
+  }
+
 
 .container{
     margin-left:auto;
     margin-right:auto;
-    width:1024px;
+
 }
 
 header{
@@ -91,6 +102,7 @@ footer{
     margin-top:10px;
     padding-top: 20px;
 }
+
 
 h1{
     font-size:60px;
